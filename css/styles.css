@@ -328,6 +328,12 @@ section:last-child {
     flex-shrink: 0;
 }
 
+.pill--primary {
+    color: var(--accent);
+    border-color: var(--accent-border);
+    background: var(--accent-glow);
+}
+
 .prose p {
     color: var(--text-dim);
     margin-bottom: 18px;
@@ -606,6 +612,24 @@ section:last-child {
 
 .contact-link svg {
     flex-shrink: 0;
+}
+
+.contact-link--preferred {
+    border-color: var(--accent-border);
+    color: var(--accent);
+}
+
+.preferred-badge {
+    margin-left: auto;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    background: var(--accent-glow);
+    border: 1px solid var(--accent-border);
+    border-radius: 4px;
+    padding: 2px 6px;
 }
 
 footer {
