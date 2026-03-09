@@ -1,34 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nitish Dewan - AI Analyst</title>
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Pacifico', cursive;
-        }
-        .icon {
-            width: 24px;
-            height: 24px;
-        }
-    </style>
+    <title>nitish dewan</title>
+    <meta name="description" content="nitish dewan — ai tpm, builder, curious human.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-white text-gray-800">
-    <div class="container mx-auto px-4 py-8">
-        <div class="text-center">
-            <h1 class="text-4xl">Nitish Dewan</h1>
-            <p class="text-xl">ai analyst at Rediminds Inc.</p>
-            <p class="mt-4">Taking one day at a time, and building something</p>
-        </div>
 
-        <div class="flex justify-center space-x-4 mt-8">
-            <a href="https://www.linkedin.com/in/nitish-dewan/" target="_blank" title="LinkedIn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn" class="icon">
-            </a>
+<body>
+    <div id="glow"></div>
+
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">nd.</a>
+            <button class="nav-toggle" id="navToggle" aria-label="toggle menu">
+                <span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">about</a></li>
+                <li><a href="#now">now</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#writing">writing</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
+
+    <main>
+
+        <section id="hero">
+            <p class="hero-eyebrow">
+                <span class="status-dot"></span>
+                open to interesting conversations
+            </p>
+            <h1 class="hero-name">nitish dewan<span class="accent-dot">.</span></h1>
+            <p class="hero-subtitle">
+                <span class="hl">ai technical program manager</span> at rediminds inc.
+            </p>
+            <p class="hero-tagline">
+                redefining healthcare systems, using ai.
+            </p>
+            <div class="hero-links">
+                <a href="https://www.linkedin.com/in/nitish-dewan/" target="_blank" rel="noopener" class="pill">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+                        <rect x="2" y="9" width="4" height="12"/>
+                        <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                    linkedin
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="reveal">
+            <div class="section-label">about</div>
+            <div class="prose">
+                <p>
+                    hi, i'm nitish — an ai tpm based in chicago, illinois. i work at <a href="https://www.linkedin.com/company/rediminds/" target="_blank" rel="noopener">rediminds</a> where i focus on applying ai to real healthcare problems, building systems that make it into clinical workflows.
+                </p>
+                <p>
+                    i grew up across india, before moving to chicago to study at the <a href="https://www.uic.edu/" target="_blank" rel="noopener">university of illinois chicago</a>. winning third prize at uic impact day 2023 for a computer vision medtech solution was a moment that confirmed i was on the right track. before that, i spent time at capgemini india where i shipped projects across tech consulting and automation.
+                </p>
+                <p>
+                    outside of work, i'm usually listening to podcasts and then talking about them, or playing pickleball when i can. i find a lot of meaning in meeting new people, hearing their stories, and helping people feel more enabled with tech and ai.
+                </p>
+            </div>
+        </section>
+
+        <section id="now" class="reveal">
+            <div class="section-label">now</div>
+            <ul class="now-list reveal-children">
+                <li class="now-item">
+                    <span class="now-arrow">→</span>
+                    <span>building ai-powered healthcare systems at rediminds — focused on making ai actually work in clinical environments.</span>
+                </li>
+                <li class="now-item">
+                    <span class="now-arrow">→</span>
+                    <span>learning to get better at claude code.</span>
+                </li>
+                <li class="now-item">
+                    <span class="now-arrow">→</span>
+                    <span>reading <em>how to know a person</em> by david brooks.</span>
+                </li>
+                <li class="now-item">
+                    <span class="now-arrow">→</span>
+                    <span>thinking about the impact of ai on the global economy and workforce.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience" class="reveal">
+            <div class="section-label">experience</div>
+            <div class="exp-list reveal-children">
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <div class="exp-role">ai technical program manager</div>
+                        <div class="exp-period">2024 – present</div>
+                    </div>
+                    <div class="exp-company">rediminds, inc. · chicago, il</div>
+                    <div class="exp-desc">
+                        working on ai-driven healthcare systems — applying computer vision, nlp, and machine learning to redefine how clinical workflows operate. building and deploying models that bridge the gap between cutting-edge ai research and real-world medical use cases.
+                    </div>
+                </div>
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <div class="exp-role">associate consultant</div>
+                        <div class="exp-period">2018 – 2021</div>
+                    </div>
+                    <div class="exp-company">capgemini india · mumbai</div>
+                    <div class="exp-desc">
+                        delivered technology consulting projects across client engagements in india and singapore. recognised with the project star award (2019) and customer delight awards (2020–2021) for consistent high-quality delivery.
+                    </div>
+                </div>
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <div class="exp-role">m.s. — computer science</div>
+                        <div class="exp-period">2021 – 2023</div>
+                    </div>
+                    <div class="exp-company">university of illinois chicago</div>
+                    <div class="exp-desc">
+                        graduate research focused on computer vision and medtech. built a cv-based medical solution that won 3rd prize at uic impact day 2023.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="reveal">
+            <div class="section-label">projects</div>
+            <div class="projects-grid reveal-children">
+
+                <a href="#" class="project-card">
+                    <svg class="project-link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        <polyline points="15 3 21 3 21 9"/>
+                        <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                    <div class="project-name">cv medtech solution</div>
+                    <div class="project-desc">a computer vision system built for medical imaging — won 3rd prize at uic impact day 2023. focused on bringing cv-powered diagnostics closer to clinical reality.</div>
+                    <div class="project-tags">
+                        <span class="tag">computer vision</span>
+                        <span class="tag">python</span>
+                        <span class="tag">tensorflow</span>
+                    </div>
+                </a>
+
+                <a href="#" class="project-card">
+                    <svg class="project-link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        <polyline points="15 3 21 3 21 9"/>
+                        <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                    <div class="project-name">ai healthcare systems</div>
+                    <div class="project-desc">end-to-end ai pipelines for clinical workflows at rediminds — spanning model development, integration, and deployment in healthcare environments.</div>
+                    <div class="project-tags">
+                        <span class="tag">nlp</span>
+                        <span class="tag">ml</span>
+                        <span class="tag">healthcare ai</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section id="writing" class="reveal">
+            <div class="section-label">writing</div>
+            <div class="writing-list reveal-children">
+
+                <a href="https://medium.com/@nitishdewan/the-rabbit-hole-of-chatbots-bd447065f19d" target="_blank" rel="noopener" class="writing-link">
+                    <span class="writing-title">the rabbit hole of chatbots</span>
+                    <span class="writing-meta">feb 2024</span>
+                </a>
+
+                <a href="https://medium.com/@nitishdewan/simplify-computer-vision-dataset-curation-with-fiftyone-a-developers-intro-guide-5acce1db81d1" target="_blank" rel="noopener" class="writing-link">
+                    <span class="writing-title">simplify computer vision dataset curation with fiftyone</span>
+                    <span class="writing-meta">apr 2024</span>
+                </a>
+
+                <a href="https://medium.com/@nitishdewan/vector-databases-the-powerhouse-behind-generative-ai-a5e81d629498" target="_blank" rel="noopener" class="writing-link">
+                    <span class="writing-title">vector databases: the powerhouse behind generative ai</span>
+                    <span class="writing-meta">apr 2024</span>
+                </a>
+
+                <a href="https://medium.com/@nitishdewan/what-is-this-llm-buzz-all-about-62886affdb9c" target="_blank" rel="noopener" class="writing-link">
+                    <span class="writing-title">what is this llm buzz all about</span>
+                    <span class="writing-meta">mar 2024</span>
+                </a>
+
+                <a href="https://medium.com/@nitishdewan/befriending-ai-a1e772b2737d" target="_blank" rel="noopener" class="writing-link">
+                    <span class="writing-title">befriending ai</span>
+                    <span class="writing-meta">mar 2024</span>
+                </a>
+
+                <a href="https://medium.com/@nitishdewan/redefining-how-i-consume-internet-9824a79b0481" target="_blank" rel="noopener" class="writing-link">
+                    <span class="writing-title">redefining how i consume internet</span>
+                    <span class="writing-meta">mar 2024</span>
+                </a>
+
+            </div>
+        </section>
+
+        <section id="contact" class="reveal">
+            <div class="section-label">contact</div>
+            <p class="contact-intro">
+                i'm always open to interesting conversations, collaborations, or just saying hi. the best way to reach me is through linkedin.
+            </p>
+            <div class="contact-grid reveal-children">
+
+                <a href="https://www.linkedin.com/in/nitish-dewan/" target="_blank" rel="noopener" class="contact-link">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+                        <rect x="2" y="9" width="4" height="12"/>
+                        <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                    linkedin
+                </a>
+
+                <a href="https://github.com/nitishdewan" target="_blank" rel="noopener" class="contact-link">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                    </svg>
+                    github
+                </a>
+
+                <!-- <a href="mailto:" class="contact-link">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    email me
+                </a> -->
+
+                <a href="https://x.com/DewanNitish" target="_blank" rel="noopener" class="contact-link">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                    </svg>
+                    twitter
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <span class="footer-copy">nitish dewan &copy; 2026</span>
+        <span class="footer-built">built with intention</span>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
